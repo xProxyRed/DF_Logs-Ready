@@ -26,7 +26,7 @@ Zusätzliche Abhängigkeiten gelten je nach Resource – Details stehen jeweils 
 #### Eigene Scripts mit `logs_integration.lua` anbinden
 Die Datei `logs_integration.lua` ist so gebaut, dass sie **Client + Server** kann:
 - **Server**: baut Payload (Playername, Resource, Coords) und ruft `DF_Logs` Export auf
-- **Client**: bietet dieselbe API und bridged per Event in die **eigene** Resource (pro Resource eigener Eventname, keine Doppel-Logs)
+- **Client**: bietet dieselbe API und bridged per Event zum Server (Eventname ist **pro Resource eindeutig**)
 
 ##### Schritt 1: Datei kopieren
 Kopiere `logs_integration.lua` in deine Resource, z. B.:
@@ -103,6 +103,10 @@ DFLogs.Log("startup", "Resource gestartet", { allowNoSource = true })
 - **Client ruft `DFLogs.Log(...)`, aber nichts passiert**:
   - Stelle sicher, dass `logs_integration.lua` **auch serverseitig** in derselben Resource geladen wird (am besten `shared_scripts`).
 
+#### Mitmachen / Neue Scripts beisteuern
+- **Pull Requests**: Neue, bereits auf `DF_Logs` angepasste Scripts/Integrationen sind willkommen – einfach PR erstellen.
+- **Discord**: Alternativ kannst du Scripts/Ideen auch über Discord schicken: [Discord](https://discord.com/invite/NYjaRBPGN9)
+
 ---
 
 ### English (EN)
@@ -131,7 +135,7 @@ Per-resource dependencies may apply—check each **resource folder** (e.g. its `
 #### Use `logs_integration.lua` in your own scripts
 `logs_integration.lua` supports **both client + server**:
 - **Server**: builds the payload (player name, resource name, coords) and calls the `DF_Logs` export
-- **Client**: provides the same API and bridges via a **resource-scoped** event (prevents duplicate/global logging)
+- **Client**: provides the same API and bridges via a **resource-scoped** event (unique event name per resource)
 
 ##### Step 1: Copy the file
 Copy `logs_integration.lua` into your resource, e.g.:
@@ -207,5 +211,9 @@ DFLogs.Log("startup", "Resource started", { allowNoSource = true })
   - Is `logs_integration.lua` actually loaded (server/shared)?
 - **Client calls `DFLogs.Log(...)` but nothing happens**:
   - Make sure `logs_integration.lua` is also loaded server-side in the same resource (best via `shared_scripts`).
+
+#### Contributing / Add new scripts
+- **Pull Requests**: New scripts/integrations that are already adapted to `DF_Logs` are welcome — just open a PR.
+- **Discord**: Alternatively, you can also send scripts/ideas via Discord: [Discord](https://discord.com/invite/NYjaRBPGN9)
 
 
