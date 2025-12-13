@@ -1,0 +1,35 @@
+{
+  "unlocked_door": "Tür aufgeschlossen",
+  "locked_door": "Tür verschlossen",
+  "lock_door": "[E] Tür verschließen",
+  "unlock_door": "[E] Tür aufschließen",
+  "door_lock": "Türschloss",
+  "passcode": "Zugangscode",
+  "lockpick_broke": "Dein Dietrich ist zerbrochen",
+  "pick_lock": "Tür aufbrechen",
+  "add_lock": "Türschloss hinzufügen",
+  "edit_lock": "Türschloss bearbeiten",
+  "remove_lock": "Türschloss entfernen",
+  "cannot_unlock": "Es ist nicht möglich die Tür aufzuschließen",
+  "cannot_lock": "Es ist nicht möglich die Tür zu verschließen",
+  "create_modify_lock": "Erstelle ein Türschloss oder bearbeite ein vorhandenes",
+  "add_door_textui": "Neue Tür erstellen \nMit [LMB] interagieren \nMit [RMB] abbrechen",
+  "command_closest": "Öffne die UI direkt zur nächstgelegenen Tür",
+
+  "lockpick_log_action": "Lockpicking",
+  "lockpick_success_log": "Erfolgreich Tür %s aufgebrochen",
+  "lockpick_broke_log": "Dietrich bei Tür %s zerbrochen",
+  "lockpick_failed_log": "Tür %s konnte nicht aufgebrochen werden",
+
+  "doorlock_log_action": "Türschloss",
+  "doorstate_script_action": "Türstatus",
+  "door_create_action": "Door Create",
+  "door_edit_action": "Door Edit",
+  "door_delete_action": "Door Delete",
+
+  "doorlock_created_log": "Türschloss erstellt: %s",
+  "doorlock_edited_log": "Türschloss bearbeitet: %s",
+  "doorlock_deleted_log": "Türschloss gelöscht: %s",
+  "doorstate_script_log": "Türstatus per Script geändert: %s -> %s (Resource: %s)",
+  "doorlock_changes_log": "Änderungen: %s"
+}

@@ -1,0 +1,35 @@
+{
+  "unlocked_door": "Unlocked door",
+  "locked_door": "Locked door",
+  "lock_door": "[E] Lock door",
+  "unlock_door": "[E] Unlock door",
+  "door_lock": "Door lock",
+  "passcode": "Passcode",
+  "lockpick_broke": "Your lockpick broke",
+  "pick_lock": "Pick lock",
+  "add_lock": "Add doorlock",
+  "edit_lock": "Edit doorlock",
+  "remove_lock": "Remove doorlock",
+  "cannot_unlock": "Unable to unlock door",
+  "cannot_lock": "Unable to lock door",
+  "create_modify_lock": "Create a doorlock, or modify an existing one",
+  "add_door_textui": "**Create new door**  \nInteract with [LMB]  \nCancel with [RMB]",
+  "command_closest": "Open UI directly to closest doorlock",
+
+  "lockpick_log_action": "Lockpicking",
+  "lockpick_success_log": "Successfully picked door %s",
+  "lockpick_broke_log": "Lockpick broke at door %s",
+  "lockpick_failed_log": "Failed to pick door %s",
+
+  "doorlock_log_action": "Doorlock",
+  "doorstate_script_action": "Door state",
+  "door_create_action": "Door Create",
+  "door_edit_action": "Door Edit",
+  "door_delete_action": "Door Delete",
+
+  "doorlock_created_log": "Doorlock created: %s",
+  "doorlock_edited_log": "Doorlock edited: %s",
+  "doorlock_deleted_log": "Doorlock deleted: %s",
+  "doorstate_script_log": "Door state changed by script: %s -> %s (Resource: %s)",
+  "doorlock_changes_log": "Changes: %s"
+}
