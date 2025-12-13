@@ -1,0 +1,26 @@
+{
+    "log": {
+        "scrap_action": "Fahrzeug zerlegt",
+        "scrap_message": "Zerlegt %s (Kennzeichen: %s) | Items: %s",
+        "no_items": "Keine Items erhalten"
+    },
+    "error": {
+        "scrap_owned": "Du kannst keine spielereigenen Fahrzeuge verschrotten.",
+        "cannot_scrap": "Dieses Fahrzeug kann nicht verschrottet werden.",
+        "not_driver": "Du bist nicht der Fahrer",
+        "scrap_vehicle": "Du darfst im Moment keine Fahrzeuge verschrotten",
+        "canceled": "Abgebrochen"
+    },
+    "text": {
+        "disassemble_vehicle": "[E] - Fahrzeug zerlegen",
+        "email_list": "[E] - Fahrzeugliste per E-Mail",
+        "email_list_target": "Fahrzeugliste per E-Mail",
+        "scrap_vehicle": "Fahrzeug wird zerlegt",
+        "email_sent": "Du erhältst die Liste in wenigen Sekunden per E-Mail"
+    },
+    "email": {
+        "sender": "Turner's Autoverschrottung",
+        "subject": "Fahrzeugliste",
+        "message": "Du kannst nur eine begrenzte Anzahl an Fahrzeugen verschrotten.<br />Du darfst alles behalten, was du verschrottest, solange du mich nicht störst.<br /><br /><strong>Fahrzeugliste:</strong><br />"
+    }
+}
