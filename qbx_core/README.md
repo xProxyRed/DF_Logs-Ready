@@ -2,6 +2,7 @@
 
 ## Bearbeitete Dateien (Command-Logs / Locales)
 
+- `fxmanifest.lua`
 - `server/commands.lua`
 - `client/events.lua`
 - `locales/en.json`
